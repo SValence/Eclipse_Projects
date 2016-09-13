@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">安卓实验五</string>
+    <string name="hello_world">安卓实验五</string>
+    <string name="name">姓名</string>
+    <string name="enterName">请输入姓名</string>
+    <string name="age">年龄</string>
+    <string name="enterAge">请输入年龄</string>
+    <string name="enterHeight">请输入身高</string>
+    <string name="height">身高</string>
+    <string name="add">添加数据</string>
+    <string name="showAll">全部显示</string>
+    <string name="clearShow">清除显示</string>
+    <string name="deleteAll">删除全部</string>
+    <string name="Id">ID</string>
+    <string name="enterId">请输入需要操作的ID</string>
+    <string name="ID_Delete">ID删除</string>
+    <string name="ID_Search">ID查询</string>
+    <string name="ID_Update">ID更新</string>
+    <string name="sql">数据库： </string>
+    <string name="tips_nameEnter">如需修改请重新输入</string>
+
+</resources>

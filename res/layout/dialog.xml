@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="2sp"
+        android:orientation="horizontal">
+        <TextView
+	        android:id="@+id/tips_name"
+	        android:layout_width="70sp"
+	        android:layout_height="50sp"
+	        android:text="@string/name"
+	        android:gravity="center"
+        	android:textSize="20sp" />
+        <EditText 
+            android:id="@+id/tips_nameEnter"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:hint="@string/tips_nameEnter"
+        	android:background="@drawable/bg_edittext"
+        	android:gravity="center"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="2sp"
+        android:orientation="horizontal">
+        <TextView
+	        android:id="@+id/tips_age"
+	        android:layout_width="70sp"
+	        android:layout_height="50sp"
+	        android:text="@string/age"
+	        android:gravity="center"
+        	android:textSize="20sp" />
+        <EditText 
+            android:id="@+id/tips_ageEnter"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:hint="@string/tips_nameEnter"
+        	android:background="@drawable/bg_edittext"
+        	android:gravity="center"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="2sp"
+        android:orientation="horizontal">
+        <TextView
+	        android:id="@+id/tips_height"
+	        android:layout_width="70sp"
+	        android:layout_height="50sp"
+	        android:text="@string/height"
+	        android:gravity="center"
+        	android:textSize="20sp" />
+        <EditText 
+            android:id="@+id/tips_heEnter"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:hint="@string/tips_nameEnter"
+        	android:background="@drawable/bg_edittext"
+        	android:gravity="center"/>
+    </LinearLayout>
+    
+</LinearLayout>
